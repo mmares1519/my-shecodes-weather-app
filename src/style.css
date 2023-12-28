@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: purple;
+  color: #73dae7;
 }
 
 .weather-app {
@@ -33,7 +33,7 @@ header {
 }
 
 .search-form-button {
-  background: purple;
+  background: #73dae7;
   padding: 15px 30px;
   border: none;
   margin-left: 5px;
