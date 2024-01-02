@@ -91,7 +91,7 @@ main {
 .weather-forecast {
   display: flex;
   margin-top: 20px;
-  text-align: center;
+  justify-content: space-around;
 }
 
 .weather-forecast-date {
@@ -103,14 +103,19 @@ main {
 }
 
 .weather-forecast-icon {
-  width: 88px;
-  height: 88px;
+  width: 90px;
+  height: 90px;
   display: block;
   margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
   font-size: 13px;
+  text-align: center;
+  color: #f65282;
+
+  display: flex;
+  justify-content: center;
 }
 
 .weather-forecast-temperature {
